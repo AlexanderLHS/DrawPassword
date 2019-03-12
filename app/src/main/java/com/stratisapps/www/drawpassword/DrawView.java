@@ -61,7 +61,7 @@ public class DrawView extends View{
     }
     
     /* This code will be changed later to allow for any drawing to be drawn
-    But is limited to 4 touch events for creating the animetion */
+    but is limited to 4 touch events for now for creating the animation */
 
     @Override
     protected void onDraw(Canvas canvas) {

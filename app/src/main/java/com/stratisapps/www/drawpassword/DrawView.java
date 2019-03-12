@@ -59,6 +59,9 @@ public class DrawView extends View{
         paint.setStrokeCap(Paint.Cap.ROUND);
         paint.setStrokeJoin(Paint.Join.ROUND);
     }
+    
+    /* This code will be changed later to allow for any drawing to be drawn
+    But is limited to 4 touch events for creating the animetion */
 
     @Override
     protected void onDraw(Canvas canvas) {
